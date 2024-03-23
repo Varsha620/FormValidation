@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to bottom right,rgb(18, 111, 232),rgb(66, 186, 230), rgb(90, 235, 218));
+}
+.head{
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(226, 231, 231);
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.form-group {
+    margin-bottom: 10px;
+  }
+  
+label {
+    display: block;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    color: cornsilk;
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #12e2b5;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    align-content: center;
+    margin: 10px 0px;
+  }
+
+.help-button{
+    background-color: rgb(7, 184, 107);
+    color: aliceblue;
+    padding: 2px 3px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 5px;
+    right: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #1767e0;
+  }
+  
